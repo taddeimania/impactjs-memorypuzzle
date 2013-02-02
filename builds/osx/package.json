@@ -1,0 +1,14 @@
+{
+    "name": "nw-demo",
+    "main": "index.html",
+    "window": {
+	    "toolbar": false,
+	    "width": 1024,
+	    "height": 768,
+	    "position": "mouse",
+	    "min_width": 1024,
+	    "min_height": 768,
+	    "max_width": 1024,
+	    "max_height": 768
+  	}
+}
