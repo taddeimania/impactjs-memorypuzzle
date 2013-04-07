@@ -1,1 +1,0 @@
-ejecta.require('game.min.js');
