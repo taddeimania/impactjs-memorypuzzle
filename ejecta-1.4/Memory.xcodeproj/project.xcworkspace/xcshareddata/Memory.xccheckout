@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>273FFF7E-0617-498C-B17E-36A3A0F726B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Memory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1CF086A9-8BB2-4164-B239-A6E1F71177E1</key>
+		<string>https://github.com/taddeimania/impactjs-memorypuzzle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ejecta-1.4/Memory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1CF086A9-8BB2-4164-B239-A6E1F71177E1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/taddeimania/impactjs-memorypuzzle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1CF086A9-8BB2-4164-B239-A6E1F71177E1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1CF086A9-8BB2-4164-B239-A6E1F71177E1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>memory</string>
+		</dict>
+	</array>
+</dict>
+</plist>
