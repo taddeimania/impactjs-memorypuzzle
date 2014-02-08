@@ -59,7 +59,7 @@ ig.module(
     update: ->
       if @cardSpawnQueue.length and @spawnCounter.delta() > 0.06
         card = this.cardSpawnQueue.shift()
-        @spawnEntity(card[0], card[1], card[2])
+        @spawnEntity card[0], card[1], card[2]
         @spawnCounter.reset()
 
       if @cardCount == 0
@@ -92,7 +92,7 @@ ig.module(
         i++
 
     getRandomCards: (count) ->
-      @utility.shuffle(@currentDeck).slice(0, count)
+      @utility.shuffle(@currentDeck).slice 0, count
 
   StartScreen = ig.Game.extend
     init: ->
@@ -114,10 +114,8 @@ ig.module(
   EasyGame = MyGame.extend
     difficulty: "easy"
 
-
   MediumGame = MyGame.extend
     difficulty: "medium"
-
 
   HardGame = MyGame.extend
     difficulty: "hard"
