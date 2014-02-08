@@ -1,0 +1,12 @@
+{
+  "name": "memory-taddei",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-coffee": "",
+    "coffee-script": "~1.7.1"
+  },
+  "author": "Joel Taddei, Kyle Lawson, Matt Hunter"
+}

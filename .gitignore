@@ -6,3 +6,4 @@ weltmeister.html
 .DS_Store
 .idea/
 server.py
+node_modules/
