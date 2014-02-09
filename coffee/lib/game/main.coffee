@@ -33,7 +33,7 @@ ig.module(
   'game.entities.ui.food',
   'game.entities.ui.sceneSelectButton'
 )
-.defines( ->
+.defines ->
   MyGame = ig.Game.extend
     settings: new Settings()
     utility: new Utility()
@@ -121,7 +121,3 @@ ig.module(
     difficulty: "hard"
 
   ig.main '#canvas', StartScreen, 60, 1024, 768, 1
-
-  return
-)
-
