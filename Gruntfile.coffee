@@ -7,7 +7,7 @@ module.exports = (grunt) ->
         bare: true
       glob_to_multiple:
         expand: true
-        cwd: 'lib/game/'
+        cwd: 'coffee/lib/game/'
         src: ['**/*.coffee']
         dest: 'lib/game/'
         ext: '.js'
