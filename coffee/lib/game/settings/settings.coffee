@@ -24,9 +24,18 @@ ig.module(
     'game.entities.animals.snake',
     'game.entities.animals.spider',
     'game.entities.animals.turtle',
-    'game.entities.food.coffee',
-    'game.entities.food.cake',
-    'game.entities.food.carrot',
+    'game.entities.food.banana',
+    'game.entities.food.cherries',
+    'game.entities.food.grapes',
+    'game.entities.food.icecream',
+    'game.entities.food.kiwi',
+    'game.entities.food.lollipop',
+    'game.entities.food.orange',
+    'game.entities.food.pear',
+    'game.entities.food.pineapple',
+    'game.entities.food.strawberry',
+    'game.entities.food.tomato',
+    'game.entities.food.watermelon',
     'game.entities.food.apple'
 ).defines ->
 
@@ -50,8 +59,8 @@ ig.module(
     # Define possible cards able to be used in the card sets
     animalCards: ['EntityBird','EntityCat','EntityCrab','EntityDog','EntityDuck','EntityFish','EntityGiraffe',
       'EntityLion','EntityPenguin','EntityPig','EntitySnake','EntitySpider','EntityTurtle'],
-    foodCards: ['EntityCoffee','EntityCake','EntityCarrot','EntityApple','EntityDuck','EntityFish','EntityGiraffe',
-      'EntityLion','EntityPenguin','EntityPig','EntitySnake','EntitySpider','EntityTurtle'],
+    foodCards: ['EntityBanana','EntityCherries','EntityGrapes','EntityApple','EntityIcecream','EntityKiwi','EntityLollipop',
+      'EntityOrange','EntityPear','EntityPineapple','EntityTomato','EntityWatermelon','EntityStrawberry'],
     difficulty:
       easy: 3
       medium: 6
