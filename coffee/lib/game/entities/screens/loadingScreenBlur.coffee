@@ -1,4 +1,4 @@
-EntityLoadingScreenBlue = null
+EntityLoadingScreenBlur = null
 
 ig.module(
     'game.entities.screens.loadingScreenBlur'
@@ -12,6 +12,6 @@ ig.module(
       x: 1024
       y: 768
     init: (x, y, settings) ->
-      @addAnim('idle', 1, [0])
+      @addAnim 'idle', 1, [0]
       @currentAnim = @anims.idle
-      @parent(x, y, settings)
+      @parent x, y, settings
